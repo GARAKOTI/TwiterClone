@@ -7,19 +7,19 @@ import { BsFeather } from "react-icons/bs";
 
 const LeftSidebar = () => {
   return (
-    <div className="min-h-screen lg:border-r-2 ">
+    <div className="min-h-screen  ">
       <div className="p-4 rounded-[50%] lg:rounded-full hover:bg-gray-100 items-center  lg:flex-start justify-center px-3">
         <img
           width={30}
           className="object-contain "
           src="/public/X.png"
-          alt=""
+          alt="Logo"
         />
       </div>
 
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <AiFillHome />
           </p>
           <h1 className=" hidden lg:flex font-bold">Home</h1>
@@ -27,7 +27,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <FaSearch />
           </p>
           <h1 className=" hidden lg:flex font-bold">Explore</h1>
@@ -35,7 +35,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <FaBell />
           </p>
           <h1 className=" hidden lg:flex font-bold">Notifications</h1>
@@ -43,7 +43,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <FaEnvelope />
           </p>
           <h1 className=" hidden lg:flex font-bold">Messages</h1>
@@ -51,7 +51,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <FaCode />
           </p>
           <h1 className=" hidden lg:flex font-bold">Grok</h1>
@@ -59,7 +59,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <FaBook />
           </p>
           <h1 className=" hidden lg:flex font-bold">Lists</h1>
@@ -68,7 +68,7 @@ const LeftSidebar = () => {
 
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <BsPersonHearts />
           </p>
           <h1 className=" hidden lg:flex font-bold">Communication</h1>
@@ -89,7 +89,7 @@ const LeftSidebar = () => {
       </div>
       <div>
         <div className="flex gap-2 items-center my-2 p-4 hover:bg-gray-200 rounded-full">
-          <p className="text-3xl">
+          <p className="text-xl">
             <IoPerson />
           </p>
           <h1 className=" hidden lg:flex font-bold">Profile</h1>
@@ -99,7 +99,7 @@ const LeftSidebar = () => {
         <span className="text-3xl lg:hidden hover:bg-blue-400 p-2 rounded-full">
           <BsFeather />
         </span>
-        <button className="hidden lg:flex  bg-blue-400  items-center justify-center px-20 py-3 rounded-full hover:opacity-[0.8] ">
+        <button className="hidden lg:flex  bg-blue-400  items-center justify-center px-20 py-3 rounded-full hover:opacity-[0.8] font-bold text-white">
           Post
         </button>
       </div>
