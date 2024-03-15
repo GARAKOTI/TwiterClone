@@ -9,12 +9,7 @@ const LeftSidebar = () => {
   return (
     <div className="min-h-screen  ">
       <div className="p-4 rounded-[50%] lg:rounded-full hover:bg-gray-100 items-center  lg:flex-start justify-center px-3">
-        <img
-          width={30}
-          className="object-contain "
-          src="/public/X.png"
-          alt="Logo"
-        />
+        <img width={30} className="object-contain " src="/X.png" alt="Logo" />
       </div>
 
       <div>

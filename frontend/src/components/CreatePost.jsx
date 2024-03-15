@@ -29,7 +29,7 @@ const CreatePost = () => {
         <div className="m-4">
           <div className="  flex items-center">
             <Avatar
-              src="/public/Gojo.jpeg"
+              src="/Gojo.jpeg"
               size="40"
               round={true}
               className="border object-cover hover:opacity-[0.8]"
